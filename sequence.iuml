@@ -9,16 +9,16 @@ box "Store Front" #LightGreen
     participant Clients as C
 end box
 
-box "Manufacture" #LightPink
-    participant Manufacturers as M
-    participant ManufacturingCapabilities as MC
-    participant PricingAlgorithm as PA
-end box
-
 box "Messages" #LightGray
     participant ManufacturingRequests as MR
     participant ManufacturingResponses as MRsp
     participant ManufacturingOrders as MO
+end box
+
+box "Manufacture" #LightPink
+    participant Manufacturers as M
+    participant ManufacturingCapabilities as MC
+    participant PricingAlgorithm as PA
 end box
 
 D -> FS : Upload manufacturing file
