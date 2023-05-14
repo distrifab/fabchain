@@ -12,6 +12,16 @@ This project has many goals, including:
 - record manufacturing data to provide proofs of manufacturing quality
 - track individual products' life including initial manufacturing materials to allow easier recycling/upcycling
 
+## State of the art
+
+This repo contains the builds of the fabchain rollup's node. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will published soon.
+
+The node will also be embedded by the Cosmyx 3D printers so they can receive manufacturing orders from the blockchain.
+
+## Open-sourcing the node's code
+
+We plan on releasing the node's source code once the business model and legal issues are ironed out.
+
 ## Project history
 
 This project was started in 2015 under the name [MakerNet](https://makernet.org/), a distributed manufacturing marketplace.
@@ -54,3 +64,67 @@ It allows actors of different distributed manufacturing ecosystems to interact :
   - receives payments for the manufacturing services
 
 ![fabchain-sequence](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/distrifab/fabchain/main/sequence.iuml)
+
+## Node operation
+
+The fabchain node is operated like any other cosmos-sdk based node. All commands relative to fabchain are implemented in the `fab` module.
+
+```
+$ fabchaind tx fab
+fab transactions subcommands
+
+Usage:
+  fabchaind tx fab [flags]
+  fabchaind tx fab [command]
+
+Available Commands:
+  create-agency      Create a new agency
+  create-capability  Create a new capability
+  create-filestore   Create a new filestore
+  create-manufacture Create a new manufacture
+  create-order       Create a new order
+  create-pricer      Create a new pricer
+  create-product     Create a new product
+  create-request     Create a new request
+  create-response    Create a new response
+  create-storefront  Create a new storefront
+  create-user        Create a new user
+  delete-agency      Delete a agency by id
+  delete-capability  Delete a capability by id
+  delete-filestore   Delete a filestore by id
+  delete-manufacture Delete a manufacture by id
+  delete-order       Delete a order by id
+  delete-pricer      Delete a pricer by id
+  delete-product     Delete a product by id
+  delete-request     Delete a request by id
+  delete-response    Delete a response by id
+  delete-storefront  Delete a storefront by id
+  delete-user        Delete a user by id
+  update-agency      Update a agency
+  update-capability  Update a capability
+  update-filestore   Update a filestore
+  update-manufacture Update a manufacture
+  update-order       Update a order
+  update-pricer      Update a pricer
+  update-product     Update a product
+  update-request     Update a request
+  update-response    Update a response
+  update-storefront  Update a storefront
+  update-user        Update a user
+```
+
+## Deploying a celestia rollup
+
+In order to create the fabchain node binary, [we have created a tool (ignite-manger)](https://github.com/zkvalidator/ignite-manager) which takes as input a yaml file to describe the chain and its features, which allows deploying locally or publishing a celestia rollup on a target network as easy as a single command:
+
+```sh
+# run a rollup localy for development
+./run.sh build.yml
+# deploy a rollup to celestia
+./run.sh build.yml \
+  --namespace "E5EE1e79" \
+  --app-address http://37.27.10.10 \
+  --bridge-address http://65.108.137.217
+```
+
+The tool works for rollkit rollups on celestia (it starts a celestia-appd and celestia-node bridge locally) as well as tendermint chains.
