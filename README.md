@@ -73,11 +73,11 @@ Distrifab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollk
 It allows actors of different distributed manufacturing ecosystems to interact :
 - Design Agency
   - has designers (users)
-  - provides file stores
+  - provides manufacturing files stores
   - receives payments for the usage of manufacturing files (optional)
 - Store front
   - has clients (users)
-  - reads files from agencies
+  - reads manufacturing files from agencies
   - creates manufacturing requests
   - reads responses to manufacturing requests
   - creates manufacturing order with attached payment proof
