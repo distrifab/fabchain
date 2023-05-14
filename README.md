@@ -18,11 +18,15 @@ This project was started in 2015 under the name "MakerNet", a distributed manufa
 
 Since 2015, many deployments of the solution have been made in a centralized way (without blockchains), for different use-cases, but the long-term vision has not been achieved yet because of the many difficulties to set up such an ecosystem (double chicken-and-egg problem of a three-sided marketplace, cultural doubt of designers to share files for third-parties to manufacture, ...).
 
+In 2017, Pierre-Alexis Ciavaldini worked with Tomas Diez and Primavera De Filippi on a whitepaper for distributed manufacturing in the Fab movement, where he coined the names `fabchain` and `fabcoin`, and the general goals of a blockchain for distributed manufacturing based on MakerNet's previous years of research. He also participated in the creation of the Internet of Production consortium, which creates standards for documenting hardware projects and manufacturing capabilities. 
+
 When COVID happened, several French initiatives joined forces to produce face shields for health workers as protective equipment was in shortage. One of these initiatives was carried by MakerNet, another one was called Visiere Solidaire. Using our tools, these two initiatives have produced 1.2 million face shields for health workers in France and abroad.
 
 Following this experience, the two initiatives created the 3D printer brand Cosmyx, and MakerNet rebranded to DistriFab.
 
 Cosmyx designs, manufactures and sells 3D printers that are tailor-made for industrial distributed manufacturing. Our 3D printers read manufacturing orders from DistriFab and autonomously start printing the requested object, providing a complementary salary to the printer's owner.
+
+As time passed, more and more distributed manufacturing initiatives started blooming. DistriFab's point of view on distributed manufacturing is to connect existing distributed manufacturing ecosystems in a standardized way to make them interoperable. This way, a design hosted on platform A can be manufactured by users of platform B on a request created by storefront C, to increase each actor's reach and power to develop the distributed manufacturing paradigm that we've been working on since 2015.
 
 ## Technical description
 
