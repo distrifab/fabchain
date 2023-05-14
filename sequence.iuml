@@ -1,0 +1,37 @@
+@startuml "fabchain"
+
+box "Design Agency" #LightBlue
+    participant Designers as D
+    participant FileStores as FS
+end box
+
+box "Store Front" #LightGreen
+    participant Clients as C
+end box
+
+box "Manufacture" #LightPink
+    participant Manufacturers as M
+    participant ManufacturingCapabilities as MC
+    participant PricingAlgorithm as PA
+end box
+
+box "Messages" #LightGray
+    participant ManufacturingRequests as MR
+    participant ManufacturingResponses as MRsp
+    participant ManufacturingOrders as MO
+end box
+
+D -> FS : Upload manufacturing file
+C -> FS : Choose a product to manufacture
+C -> MR : Create manufacturing request
+MR -> PA : Read manufacturing request
+PA -> MRsp : Create manufacturing response
+MRsp -> C : List manufacturing responses
+C -> MO : Create manufacturing order with payment proof
+M -> MC : Use tools to manufacture product
+M -> MO : Update order status
+M -> C : Send finished product to client
+MO -> D : Pay for manufacturing files usage
+MO -> M : Pay for manufacturing services
+
+@enduml
