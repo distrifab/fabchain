@@ -27,5 +27,4 @@ It allows actors of different distributed manufacturing ecosystems to interact :
   - reads and updates manufacturing orders
   - receives payments for the manufacturing services
 
-
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/distrifab/fabchain/main/sequence.iuml)
+![fabchain-sequence](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/distrifab/fabchain/main/sequence.iuml)
