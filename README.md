@@ -135,3 +135,9 @@ Cosmyx designs, manufactures and sells 3D printers that are tailor-made for indu
 As time passed, more and more distributed manufacturing initiatives started blooming. DistriFab's point of view on distributed manufacturing is to connect existing distributed manufacturing ecosystems in a standardized way to make them interoperable. This way, a design hosted on platform A can be manufactured by users of platform B on a request created by storefront C, to increase each actor's reach and power to develop the distributed manufacturing paradigm that we've been working on since 2015.
 
 This build is a proof of concept application of the DistriFab infrastructure using Rollkit on Celestia, leveraging Celestia's modularity and allowing DistriFab to rely on Celestia's validator set instead of having to maintain our own. It was published as a submission to the Celestia Blockspace Race bonus tasks.
+
+## Licence
+
+The code provided in this repository is the property of DistriFab and is not made for production use, it is published here for submission to the Celestia Blockspace Race. In the near future, we will release a node that is ready for production use. For the time being, this repository's code is listed as "All rights reserved".
+
+"FabChain" and "FabCoin" are internationally registered trademarks of DistriFab.
