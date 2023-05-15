@@ -68,7 +68,7 @@ Available Commands:
 
 ## Technical description
 
-Distrifab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollkit) built using the [Cosmos SDK](https://docs.cosmos.network/main/intro/overview) and deployed on [Celestia](https://celestia.org/what-is-celestia/).
+DistriFab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollkit) built using the [Cosmos SDK](https://docs.cosmos.network/main/intro/overview) and deployed on [Celestia](https://celestia.org/what-is-celestia/).
 
 You can find the status of the chain [on this explorer](https://celestia-rollup-explorer.bharvest.io/rollups/b9529aa114a1f70a).
 
@@ -126,7 +126,7 @@ Since 2015, many deployments of the solution have been made in a centralized way
 
 In 2017, [Pierre-Alexis Ciavaldini](https://www.linkedin.com/in/peac/) (MakerNet's founder) wrote the [first article about distributed manufacturing and the blockchain](https://www.annales.org/ri/2017/resumes/aout/14-ri-resum-FR-AN-AL-ES-aout-2017.html), and worked with [Tomas Diez](https://www.linkedin.com/in/tomas-diez-2b37aa11/) and [Primavera De Filippi](https://www.linkedin.com/in/primavera-de-filippi-07558536/) on a [whitepaper for distributed manufacturing in the Fab movement](https://docs.google.com/document/d/1yAJT-OPEVm8R7umFMZc45D6eR5pXdGggJfUXXKaKxeo), where he coined the names `fabchain` and `fabcoin`, and the general goals of a blockchain for distributed manufacturing based on MakerNet's previous years of research. He also participated in the creation of the [Internet of Production Alliance](https://www.internetofproduction.org/), which creates standards for documenting hardware projects and manufacturing capabilities. 
 
-When COVID happened, several French initiatives joined forces to produce face shields for health workers as protective equipment was in shortage. One of these initiatives was carried by MakerNet, another one was called Visiere Solidaire. Using our tools, these two initiatives have produced 1.2 million face shields for health workers in France and abroad.
+When COVID happened, several French initiatives joined forces to produce face shields for health workers as protective equipment was in shortage. One of these initiatives was carried by MakerNet, another one was called Visiere Solidaire. Using our tools, these two initiatives have produced 1.5 million face shields for health workers in France and abroad.
 
 Following this experience, the two initiatives created the [3D printer brand Cosmyx](https://www.cosmyx3d.com/), and MakerNet rebranded to DistriFab.
 
@@ -134,4 +134,4 @@ Cosmyx designs, manufactures and sells 3D printers that are tailor-made for indu
 
 As time passed, more and more distributed manufacturing initiatives started blooming. DistriFab's point of view on distributed manufacturing is to connect existing distributed manufacturing ecosystems in a standardized way to make them interoperable. This way, a design hosted on platform A can be manufactured by users of platform B on a request created by storefront C, to increase each actor's reach and power to develop the distributed manufacturing paradigm that we've been working on since 2015.
 
-This build is a proof of concept application of the distrifab infrastructure using Rollkit on Celestia, leveraging Celestia's modularity and allowing distrifab to rely on Celestia's validator set instead of having to maintain our own. It was published as a submission to the Celestia Blockspace Race bonus tasks.
+This build is a proof of concept application of the DistriFab infrastructure using Rollkit on Celestia, leveraging Celestia's modularity and allowing DistriFab to rely on Celestia's validator set instead of having to maintain our own. It was published as a submission to the Celestia Blockspace Race bonus tasks.
