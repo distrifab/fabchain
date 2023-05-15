@@ -14,7 +14,7 @@ This project has many goals, including:
 
 ## State of the art
 
-This repo contains the builds of the fabchain rollup's node. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will published soon.
+This repo contains the code of the fabchain rollup node's initial beta. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will published soon.
 
 The node will also be embedded by the Cosmyx 3D printers so they can receive manufacturing orders from the blockchain.
 
@@ -69,6 +69,8 @@ Available Commands:
 ## Technical description
 
 Distrifab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollkit) built using the [Cosmos SDK](https://docs.cosmos.network/main/intro/overview) and deployed on [Celestia](https://celestia.org/what-is-celestia/).
+
+You can find the status of the chain [on this explorer](https://celestia-rollup-explorer.bharvest.io/rollups/b9529aa114a1f70a).
 
 | Description | Value            |
 |-------------|------------------|
