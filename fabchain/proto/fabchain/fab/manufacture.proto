@@ -1,0 +1,18 @@
+syntax = "proto3";
+package fabchain.fab;
+
+option go_package = "fabchain/x/fab/types";
+
+message Manufacture {
+  uint64 id = 1;
+  string owner = 2; 
+  string name = 3; 
+  repeated string pricer = 4; 
+  string paymentProvider = 5; 
+  string paymentAddress = 6; 
+  string creator = 7;
+}
+
+message EventCreateManufacture {
+	uint64 id = 1;
+}

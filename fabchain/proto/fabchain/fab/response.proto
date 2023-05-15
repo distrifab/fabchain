@@ -1,0 +1,16 @@
+syntax = "proto3";
+package fabchain.fab;
+
+option go_package = "fabchain/x/fab/types";
+
+message Response {
+  uint64 id = 1;
+  string pricer = 2; 
+  string request = 3; 
+  string price = 4; 
+  string creator = 5;
+}
+
+message EventCreateResponse {
+	uint64 id = 1;
+}

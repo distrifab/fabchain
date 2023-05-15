@@ -98,10 +98,6 @@ It allows actors of different distributed manufacturing ecosystems to interact :
 
 ![fabchain-sequence](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/distrifab/fabchain/main/sequence.iuml)
 
-## Open-sourcing the node's code
-
-We plan on releasing the node's source code once the business model and legal issues are ironed out.
-
 ## Deploying a celestia rollup
 
 In order to create the fabchain node binary, [we have created a tool (ignite-manger)](https://github.com/zkvalidator/ignite-manager) which takes as input a yaml file to describe the chain and its features, which allows deploying locally or publishing a celestia rollup on a target network as easy as a single command:

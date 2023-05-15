@@ -1,0 +1,16 @@
+syntax = "proto3";
+package fabchain.fab;
+
+option go_package = "fabchain/x/fab/types";
+
+message Capability {
+  uint64 id = 1;
+  string owner = 2; 
+  string manufacture = 3; 
+  string manifest = 4; 
+  string creator = 5;
+}
+
+message EventCreateCapability {
+	uint64 id = 1;
+}

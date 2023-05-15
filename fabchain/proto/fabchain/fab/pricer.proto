@@ -1,0 +1,14 @@
+syntax = "proto3";
+package fabchain.fab;
+
+option go_package = "fabchain/x/fab/types";
+
+message Pricer {
+  uint64 id = 1;
+  string owner = 2; 
+  string creator = 3;
+}
+
+message EventCreatePricer {
+	uint64 id = 1;
+}
