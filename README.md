@@ -70,6 +70,7 @@ Available Commands:
 
 Distrifab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollkit) built using the [Cosmos SDK](https://docs.cosmos.network/main/intro/overview) and deployed on [Celestia](https://celestia.org/what-is-celestia/).
 
+|           |                  |
 |-----------|------------------|
 | Chain ID  | fabchain-0       |
 | Namespace | b9529aa114a1f70a |
