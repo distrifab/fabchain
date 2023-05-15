@@ -107,7 +107,7 @@ In order to create the fabchain node binary, [we have created a tool (ignite-man
 
 # deploy a rollup to celestia
 ./run.sh build.yml \
-  --namespace "E5EE1e79" \
+  --namespace "b9529aa114a1f70a" \
   --app-address http://37.27.10.10 \
   --bridge-address http://65.108.137.217
 ```
