@@ -74,6 +74,7 @@ Distrifab's FabChain is a [rollup](https://rollkit.dev/docs/intro/#what-is-rollk
 |-------------|------------------|
 | Chain ID    | fabchain-0       |
 | Namespace   | b9529aa114a1f70a |
+| Coin name   | FABC (fabcoin)   |
 
 It allows actors of different distributed manufacturing ecosystems to interact :
 - Design Agency
