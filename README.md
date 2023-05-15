@@ -14,7 +14,7 @@ This project has many goals, including:
 
 ## State of the art
 
-This repo contains the code of the fabchain rollup node's initial beta. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will published soon.
+This repo contains the code of the fabchain rollup node's initial beta. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will be published soon.
 
 The node will also be embedded by the Cosmyx 3D printers so they can receive manufacturing orders from the blockchain.
 
@@ -81,7 +81,7 @@ You can find the status of the chain [on this explorer](https://celestia-rollup-
 It allows actors of different distributed manufacturing ecosystems to interact :
 - Design Agency
   - has designers (users)
-  - provides manufacturing files stores
+  - provides manufacturing files stores ([Open Know-How standard](https://standards.internetofproduction.org/pub/okh/release/1))
   - receives payments for the usage of manufacturing files (optional)
 - Store front
   - has clients (users)
@@ -92,7 +92,7 @@ It allows actors of different distributed manufacturing ecosystems to interact :
   - reads manufacturing order status updates
 - Manufacture
   - has manufacturers (users)
-  - has manufacturing capabilities ([OpenKnowWhere standard](https://standards.internetofproduction.org/pub/okw/release/1))
+  - has manufacturing capabilities ([Open Know-Where standard](https://standards.internetofproduction.org/pub/okw/release/1))
   - reads manufacturing requests
   - has a pricing algorithm (optional)
   - writes responses to manufacturing requests
@@ -130,7 +130,7 @@ When COVID happened, several French initiatives joined forces to produce face sh
 
 Following this experience, the two initiatives created the [3D printer brand Cosmyx](https://www.cosmyx3d.com/), and MakerNet rebranded to DistriFab.
 
-Cosmyx designs, manufactures and sells 3D printers that are tailor-made for industrial distributed manufacturing. Our 3D printers read manufacturing orders from DistriFab and autonomously start printing the requested object, providing a complementary salary to the printer's owner.
+Cosmyx designs, manufactures and sells 3D printers that are tailor-made for industrial distributed manufacturing. Our 3D printers read manufacturing orders from DistriFab and autonomously start printing the requested object, providing a complementary income to the printer's owner.
 
 As time passed, more and more distributed manufacturing initiatives started blooming. DistriFab's point of view on distributed manufacturing is to connect existing distributed manufacturing ecosystems in a standardized way to make them interoperable. This way, a design hosted on platform A can be manufactured by users of platform B on a request created by storefront C, to increase each actor's reach and power to develop the distributed manufacturing paradigm that we've been working on since 2015.
 
