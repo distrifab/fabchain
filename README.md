@@ -136,8 +136,6 @@ As time passed, more and more distributed manufacturing initiatives started bloo
 
 This build is a proof of concept application of the DistriFab infrastructure using Rollkit on Celestia, leveraging Celestia's modularity and allowing DistriFab to rely on Celestia's validator set instead of having to maintain our own. It was published as a submission to the Celestia Blockspace Race bonus tasks.
 
-## Licence
-
-The code provided in this repository is the property of DistriFab and is not made for production use, it is published here for submission to the Celestia Blockspace Race. In the near future, we will release a node that is ready for production use. For the time being, this repository's code is listed as "All rights reserved".
+## Legal
 
 "FabChain" and "FabCoin" are internationally registered trademarks of DistriFab.
