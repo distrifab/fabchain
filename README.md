@@ -14,9 +14,9 @@ This project has many goals, including:
 
 ## State of the art
 
-This repo contains the code of the fabchain rollup node's initial beta. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will be published soon.
+This repo contains the fabchain rollup node's initial beta. We are currently building an API and front-end to allow platforms to have a reference implementation of how to work with the node, which will be published soon.
 
-The node will also be embedded by the Cosmyx 3D printers so they can receive manufacturing orders from the blockchain.
+The node will also be embedded by the [Cosmyx 3D](https://www.cosmyx3d.com/) printers so they can receive manufacturing orders from the blockchain.
 
 ## Node operation
 
